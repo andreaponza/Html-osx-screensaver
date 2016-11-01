@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6554CE871DC8D21F0048DADE /* HtmlScreensaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6554CE861DC8D21F0048DADE /* HtmlScreensaverView.h */; };
+		6554CE891DC8D21F0048DADE /* HtmlScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6554CE881DC8D21F0048DADE /* HtmlScreensaverView.m */; };
+		6554CE921DC8D2760048DADE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6554CE911DC8D2760048DADE /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6554CE831DC8D21F0048DADE /* HtmlScreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlScreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6554CE861DC8D21F0048DADE /* HtmlScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HtmlScreensaverView.h; sourceTree = "<group>"; };
+		6554CE881DC8D21F0048DADE /* HtmlScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtmlScreensaverView.m; sourceTree = "<group>"; };
+		6554CE8A1DC8D21F0048DADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6554CE911DC8D2760048DADE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6554CE7F1DC8D21F0048DADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6554CE921DC8D2760048DADE /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6554CE791DC8D21F0048DADE = {
+			isa = PBXGroup;
+			children = (
+				6554CE851DC8D21F0048DADE /* HtmlScreensaver */,
+				6554CE841DC8D21F0048DADE /* Products */,
+				6554CE901DC8D2760048DADE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6554CE841DC8D21F0048DADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6554CE831DC8D21F0048DADE /* HtmlScreensaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6554CE851DC8D21F0048DADE /* HtmlScreensaver */ = {
+			isa = PBXGroup;
+			children = (
+				6554CE861DC8D21F0048DADE /* HtmlScreensaverView.h */,
+				6554CE881DC8D21F0048DADE /* HtmlScreensaverView.m */,
+				6554CE8A1DC8D21F0048DADE /* Info.plist */,
+			);
+			path = HtmlScreensaver;
+			sourceTree = "<group>";
+		};
+		6554CE901DC8D2760048DADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6554CE911DC8D2760048DADE /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6554CE801DC8D21F0048DADE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6554CE871DC8D21F0048DADE /* HtmlScreensaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6554CE821DC8D21F0048DADE /* HtmlScreensaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6554CE8D1DC8D21F0048DADE /* Build configuration list for PBXNativeTarget "HtmlScreensaver" */;
+			buildPhases = (
+				6554CE7E1DC8D21F0048DADE /* Sources */,
+				6554CE7F1DC8D21F0048DADE /* Frameworks */,
+				6554CE801DC8D21F0048DADE /* Headers */,
+				6554CE811DC8D21F0048DADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtmlScreensaver;
+			productName = HtmlScreensaver;
+			productReference = 6554CE831DC8D21F0048DADE /* HtmlScreensaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6554CE7A1DC8D21F0048DADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Andrea De Martino";
+				TargetAttributes = {
+					6554CE821DC8D21F0048DADE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9H7332N28N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6554CE7D1DC8D21F0048DADE /* Build configuration list for PBXProject "HtmlScreensaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6554CE791DC8D21F0048DADE;
+			productRefGroup = 6554CE841DC8D21F0048DADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6554CE821DC8D21F0048DADE /* HtmlScreensaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6554CE811DC8D21F0048DADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6554CE7E1DC8D21F0048DADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6554CE891DC8D21F0048DADE /* HtmlScreensaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6554CE8B1DC8D21F0048DADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6554CE8C1DC8D21F0048DADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6554CE8E1DC8D21F0048DADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9H7332N28N;
+				INFOPLIST_FILE = HtmlScreensaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaDeMartino.HtmlScreensaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		6554CE8F1DC8D21F0048DADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9H7332N28N;
+				INFOPLIST_FILE = HtmlScreensaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = AndreaDeMartino.HtmlScreensaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6554CE7D1DC8D21F0048DADE /* Build configuration list for PBXProject "HtmlScreensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6554CE8B1DC8D21F0048DADE /* Debug */,
+				6554CE8C1DC8D21F0048DADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6554CE8D1DC8D21F0048DADE /* Build configuration list for PBXNativeTarget "HtmlScreensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6554CE8E1DC8D21F0048DADE /* Debug */,
+				6554CE8F1DC8D21F0048DADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6554CE7A1DC8D21F0048DADE /* Project object */;
+}
